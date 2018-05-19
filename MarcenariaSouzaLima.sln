@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{E7D5F0A1-A479-484F-BD61-E7CC2B13B964}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{BAD10943-05BC-4B9A-9DED-4802696F29F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DispatchEmail.WebApi", "src\DispatchEmail.WebApi\DispatchEmail.WebApi.csproj", "{127C3C82-6711-4797-B29F-541FBD0EECFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marcenaria.Bot", "src\Marcenaria.Bot\Marcenaria.Bot.csproj", "{7A83AFAA-CFF3-448C-B1C8-6578CC2F34EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationServices", "src\ApplicationServices\ApplicationServices.csproj", "{05A390A6-572D-437E-9C32-EDE428A387E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{127C3C82-6711-4797-B29F-541FBD0EECFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127C3C82-6711-4797-B29F-541FBD0EECFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127C3C82-6711-4797-B29F-541FBD0EECFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127C3C82-6711-4797-B29F-541FBD0EECFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A83AFAA-CFF3-448C-B1C8-6578CC2F34EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A83AFAA-CFF3-448C-B1C8-6578CC2F34EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A83AFAA-CFF3-448C-B1C8-6578CC2F34EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A83AFAA-CFF3-448C-B1C8-6578CC2F34EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A390A6-572D-437E-9C32-EDE428A387E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A390A6-572D-437E-9C32-EDE428A387E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A390A6-572D-437E-9C32-EDE428A387E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A390A6-572D-437E-9C32-EDE428A387E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{127C3C82-6711-4797-B29F-541FBD0EECFB} = {E7D5F0A1-A479-484F-BD61-E7CC2B13B964}
+		{7A83AFAA-CFF3-448C-B1C8-6578CC2F34EC} = {E7D5F0A1-A479-484F-BD61-E7CC2B13B964}
+		{05A390A6-572D-437E-9C32-EDE428A387E2} = {BAD10943-05BC-4B9A-9DED-4802696F29F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DC2E71B-7105-46C2-BC4B-9E924042B71A}
+	EndGlobalSection
+EndGlobal
