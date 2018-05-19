@@ -43,7 +43,7 @@ namespace Marcenaria.Bot.Dialogs
         [LuisIntent("ProjectDetail")]
         public async Task ProjectDetailAsync(IDialogContext context, LuisResult luisResult)
         {
-            var Projects = luisResult.Entities?.Select(j => j.Entity);
+            var projects = luisResult.Entities?.Select(j => j.Entity);
             await context.PostAsync($"Aguarde um momento enquanto eu obtenho os projetos!");
 
 
